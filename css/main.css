@@ -1,0 +1,176 @@
+.text-orange {
+  color: #fab702 !important;
+}
+
+.text-blue {
+  color: #6d7396 !important;
+}
+
+.text-darkblack {
+  color: #252c3a !important;
+}
+
+.text-black {
+  color: #333333 !important;
+}
+
+.text-gray {
+  color: #f5f5f5 !important;
+}
+
+.text-red {
+  color: #bf3d42 !important;
+}
+
+.text-gray300 {
+  color: #696969 !important;
+}
+
+.bg-orange {
+  background: #fab702 !important;
+}
+
+.bg-blue {
+  background: #6d7396 !important;
+}
+
+.bg-darkblack {
+  background: #252c3a !important;
+}
+
+.bg-black {
+  background: #333333 !important;
+}
+
+.bg-gray {
+  background: #f5f5f5 !important;
+}
+
+.bg-red {
+  background: #bf3d42 !important;
+}
+
+.bg-gray300 {
+  background: #696969 !important;
+}
+
+.text-hover-orange:hover {
+  text-decoration: none !important;
+  color: #fab702 !important;
+}
+
+.text-hover-blue:hover {
+  text-decoration: none !important;
+  color: #6d7396 !important;
+}
+
+.text-hover-darkblack:hover {
+  text-decoration: none !important;
+  color: #252c3a !important;
+}
+
+.text-hover-black:hover {
+  text-decoration: none !important;
+  color: #333333 !important;
+}
+
+.text-hover-gray:hover {
+  text-decoration: none !important;
+  color: #f5f5f5 !important;
+}
+
+.text-hover-red:hover {
+  text-decoration: none !important;
+  color: #bf3d42 !important;
+}
+
+.text-hover-gray300:hover {
+  text-decoration: none !important;
+  color: #696969 !important;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  /* 1 */
+  text-overflow: ellipsis;
+  /* 2 */
+  overflow: hidden;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 320px;
+}
+
+.stretch {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.bg-stretch {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.full-screen {
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+}
+
+.bg-blend:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #bf3d42;
+  mix-blend-mode: darken;
+}
+
+.carousel-indicators li {
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 3px solid #fff;
+}
+
+.carousel-indicators li.active {
+  background-color: transparent;
+}
+
+.banner-part h1 {
+  line-height: 1;
+}
+
+.btn {
+  min-width: 230px;
+}
+
+textarea {
+  resize: none;
+  height: 110px;
+}
+
+.z-index-max {
+  z-index: 999;
+}
